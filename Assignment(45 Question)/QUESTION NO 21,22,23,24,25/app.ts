@@ -74,19 +74,30 @@ console.log("Malaysia includes in an array",countries.includes("malaysia"))
 
 // QUESTON NO 25
 
-let alein:string="Green"
+let alein:string="Green" 
 if(alein==="Green"){
     console.log("You have earned 5 points")
+}else{
+    console.log("sorry you lose")
 }
 
-alein="red"
-if(alein==="Green"){
-    console.log("you have earned 5 points")
+ 
+
+// QUESTION NO 26
+
+let aleinColor:string="red"
+if(aleinColor==="red"){
+    console.log("You have earned 5 points for shooting the Alein")
+}else{
+    console.log("just earned 10 points")
 }
 
-
-
-
+aleinColor="yellow"
+if(alein==="red"){
+    console.log("You have earned 5 points for shooting the Alein")
+}else{
+    console.log("just earned 10 points")
+}
 
 
 

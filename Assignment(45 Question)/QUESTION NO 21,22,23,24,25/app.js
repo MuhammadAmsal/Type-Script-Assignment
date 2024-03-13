@@ -47,6 +47,29 @@ else {
 }
 // Test whether an item is in a array
 let countries = ["england", "pakistan", "australia", "china"];
-console.log("Pakistan includes in array", countries.includes("pakistan"));
+console.log("Pakistan includes in an array", countries.includes("pakistan"));
 // Test whether an item is not in a array
-console.log("Malaysia includes in array", countries.includes("malaysia"));
+console.log("Malaysia includes in an array", countries.includes("malaysia"));
+// QUESTON NO 25
+let alein = "Green";
+if (alein === "Green") {
+    console.log("You have earned 5 points");
+}
+else {
+    console.log("sorry you lose");
+}
+// QUESTION NO 26
+let aleinColor = "red";
+if (aleinColor === "red") {
+    console.log("You have earned 5 points for shooting the Alein");
+}
+else {
+    console.log("just earned 10 points");
+}
+aleinColor = "yellow";
+if (alein === "red") {
+    console.log("You have earned 5 points for shooting the Alein");
+}
+else {
+    console.log("just earned 10 points");
+}
