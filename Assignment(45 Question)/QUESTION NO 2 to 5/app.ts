@@ -10,11 +10,11 @@ console.log(`Hello ${personName}, would you like to learn some Python today?`)
 
 //convert Upper Case
 let person1: string="amsal"
-console.log(person1.toUpperCase())
+console.log(person1.toUpperCase());
 
 //convert Lower Case
  let person2: string="AMSAL"
- console.log(person2.toLowerCase())
+ console.log(person2.toLowerCase());
 
  // Title Case
  function titleCase(str:string) {
